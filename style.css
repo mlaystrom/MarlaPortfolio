@@ -8,11 +8,14 @@ h4 {
 }
 
 h2{
-  color: #c24d2c
+  color: #be6147;
 }
 nav {
-  background: linear-gradient(#c24d2c, #ffffff);
+  background: linear-gradient(#be6147, #f3f3f3);
+ 
 }
+
+
 header p {
   font-size: 26px;
   line-height: 2;
@@ -34,35 +37,53 @@ img {
   padding-bottom: 2em;
   text-align: center;
   background-color: #f0f1ec;
-  color: #c24d2c;
+  color: #be6147;
    position: relative;
   
 }
 
 
 
-#aboutMe {
+#sectionBreak {
   margin: 0;
-  padding: 5em;
-  text-align: center;
-  background: linear-gradient(#c24d2c, #ffffff);
+  padding: 1.5em;
+  background: linear-gradient(#be6147, #f3f3f3);
 
 }
 
-#aboutMe h2{
-  color: #f0f1ec;
-}
-
-#aboutMe h4{
-  color: #0c005a;
-}
 
 #projects h4{
   color: #c24d2c;
 }
 
-
-
-footer > img:hover {
-  cursor: pointer;
+a{
+    color: #6c63ff;  
+    text-decoration: none;
 }
+
+a:hover{
+    color: #c24d2c;
+    text-decoration: underline;
+     transition: all 100ms ease-in-out;
+}
+
+
+
+footer {
+    margin: 60px 0;
+  
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    padding: 10px 14px;
+    font-size: 25px;
+    color: #6c63ff;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: #c24d2c;
+}
+
+

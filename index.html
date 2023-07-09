@@ -11,6 +11,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/27fb428e89.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css" />
     <title>Marla Laystrom | Portfolio</title>
   </head>
@@ -54,53 +55,67 @@
     <header>
       <section id="header">
         <div class="container">
+            <div class="row">
+                  <div class = "col-md-6 mb-3 p-3" >
           
           <h1 class="headerName">Hi, I'm Marla.</h1>
           
-          <img
+             <img
             class="picMarla"
-            src="assets/Marla Picture.jpg"
-            
-          />
-          <p class="headerTitle">I'm a Software Developer.</br> Glad you've stopped by!</p>
+            src="assets/Marla Picture.jpg"/>
 
-        </div>
+            <p class="headerTitle">I'm a Software Developer.</br> Glad you've stopped by!</p>
+            </div><!--Closing Column-->
+
+            <div class = "col-md-4 mt-4 mb-3 p-3 " >
+            <h2>About Me</h2>
+            <p class="fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            architecto saepe suscipit molestias incidunt similique placeat
+            blanditiis velit a commodi, veritatis atque, dicta, est magni libero
+            consequuntur neque minus labore!
+            </p>
+      
+            </div> <!--Closing Column-->
+            </div> <!--Closing Row-->
+        </div> <!--Closing Container-->
       </section>
     </header>
     <!--About Me-->
-    <section id="aboutMe">
-      <h2>About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-        architecto saepe suscipit molestias incidunt similique placeat
-        blanditiis velit a commodi, veritatis atque, dicta, est magni libero
-        consequuntur neque minus labore!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quasi
-        voluptas quas ratione, quidem quisquam quam officia saepe delectus! Quia
-        eligendi vero reiciendis? Nobis distinctio, est quidem perferendis
-        provident voluptatibus.
-      </p>
+    <section id="sectionBreak">
+     
     </section>
 
     <!--Projects-->
     <h2 class="text-center mb-5">What I've been working on </h2>
-    <div class="container">
+    <div class="container-md fs-5">
       <section id="projects">
-      <div class="row"></div>
-       <div class = "col-md-6">
+      <div class="row">
+       <div class = "col-md-6 mb-3 p-3" >
           <h4>The Walking Dawg Web Application</h4>
           <p>
             This application was created as a group project for a Software Development course with the Eleven Fifty Academy. 
             It is a .Net Framework API web application using n-tier architecture.  
           </p>
           <p>
-            View the repository for The Walking Dawg <a href="https://github.com/jacksonlee1/TheWalkingDawg.git">here!</a>
+            View the repository for The Walking Dawg <a href="https://github.com/jacksonlee1/TheWalkingDawg.git"><i class="fa-solid fa-arrow-right"></i>HERE</a>
           </p>
 
         </div><!--end of first column-->
+        <div class = "col-md-6 mb-3 p-3" >
+          <h4>The Walking Dawg Web Application</h4>
+          <p>
+            This application was created as a group project for a Software Development course with the Eleven Fifty Academy. 
+            It is a .Net Framework API web application using n-tier architecture.  
+          </p>
+          <p>
+            View the repository for The Walking Dawg <a href="https://github.com/jacksonlee1/TheWalkingDawg.git"><i class="fa-solid fa-arrow-right"></i>HERE</a>
+          </p>
+
+        </div><!--end of first column-->
+          
         </div><!--end of first row>-->
+      
       </section> <!--projects section-->
     </div><!--end of container for projects-->
      
@@ -109,13 +124,16 @@
 
       <!--Footer-->
       <footer>
-        <div>
-        <img
-          src="./assets/github.png"
-          alt="Github Icon"
-          height="32"
-          width="32"
-        />
+        <div class="social-links d-flex justify-content-center mt-5">
+            <a href="mailto:marlalaystrom@gmail.com" title="Email Marla">
+            <i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/mlaystrom" title="GitHub Profile" target="_blank">
+              <i class="fa-brands fa-github"></i>  
+            </a>
+            <a href="https://www.linkedin.com/in/marla-laystrom-33301b6/" title="Linkedin Profile" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>  
+            </a>
+        
        </div> 
       </footer>
        
