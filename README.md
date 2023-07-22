@@ -1,15 +1,16 @@
 # Marla Laystrom | Portfolio
 
-Thank you for stopping by! My name is Marla Laystrom and I am a software developer!
+Welcome to my portfolio! My name is Marla Laystrom and I am a Junior Software Developer.
 
-My Portfolio shares information about me, my projects, etc.
+This portfolio provides information about me, my projects, and how to reach me.
 
----
+## Technologies & Tools
 
-## Technologies
+Project was created using:
 
-Included below are the technologies I used in order to create this project:
-
-- Item 1
-- Item 2
-- Item 3
+- HTML
+- CSS
+- Bootstrap
+- Git
+- GitHub
+- Visual Studio Code

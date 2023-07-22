@@ -13,13 +13,16 @@
     />
     <script src="https://kit.fontawesome.com/27fb428e89.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@700&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Marla Laystrom | Portfolio</title>
   </head>
   <body>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-custom justify-content-between">
       <div class="container">
-        <a class="navbar-brand" href="#">Marla Laystrom</a>
+        <a class="navbar-brand navName" href="#">Marla Laystrom</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,15 +40,13 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >About me</a
-              >
+              <a class="nav-link me-3 pe-3 ps-3 navLinks"  href="#skills">SKILLS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link me-3 pe-3 ps-3 navLinks" href="#projects">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactMe">Contact me</a>
+              <a class="nav-link navLinks pe-3 ps-3" href="#contactMe">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -56,7 +57,7 @@
       <section id="header">
         <div class="container">
             <div class="row">
-                  <div class = "col-md-6 mb-3 p-3" >
+                  <div class = "col-lg-6 mb-3 p-5" >
           
           <h1 class="headerName">Hi, I'm Marla.</h1>
           
@@ -66,23 +67,44 @@
 
             <p class="headerTitle">Glad you've stopped by!</p>
             </div><!--Closing Column-->
+            <!--About Me-->
+            <div class = "col-lg-4 mt-4 mb-3 p-4 " >
+            <h2 class="about"><i class="fa-solid fa-angles-right"></i>About Me</h2>
+            <p class="fs-5 container centered-container">
+              I'm a junior software developer and a student with Eleven Fifty Academy through their
+              Software Development program.  I'm in my final week of the 15-week full-time immersive learning program where I've logged 500+
+              hours <i class="fa-solid fa-mug-hot"></i> <i class="fa-solid fa-laptop"></i> of coding time and training.  Please take a look at the<a href="#projects"> projects</a> I've been working on during these 15 weeks.  
 
-            <div class = "col-md-4 mt-4 mb-3 p-2" >
-            <h2><i class="fa-solid fa-angles-right"></i>About Me</h2>
-            <p class="fs-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            architecto saepe suscipit molestias incidunt similique placeat
-            blanditiis velit a commodi, veritatis atque, dicta, est magni libero
-            consequuntur neque minus labore!
+            </p>
+            <p class="fs-5 container centered-container">
+              When I'm not coding, I'm a major family person <i class="fa-solid fa-people-group"></i>.  I'm a boy mom so that makes me, pretty much, a super hero! 
             </p>
       
             </div> <!--Closing Column-->
             </div> <!--Closing Row-->
         </div> <!--Closing Container-->
+        <br>
+        <br>
       </section>
     </header>
-    <!--About Me-->
+   
     <section id="sectionBreak">
+     
+    </section>
+
+    <section id="skills">
+
+      <h2 class="text-center mt-4 mb-5">Technical Skills <i class="fa-solid fa-code"></i></h2>
+      <div class="container-md-6 offset-md-3 centered-container mt-4 mb-5 ps-5 fs-5">
+      <p><span style="color: #be6147;">Web Technologies:</span> HTML, CSS, APIs, MVC, Responsive web design, Bootstrap</p>
+      <p><span style="color: #be6147;">Languages/Libraries:</span> C#, ASP.NET, SQL</p>
+      <p><span style="color: #be6147;">Cloud Technologies:</span> Azure, GitHub</p>
+      <p><span style="color: #be6147;">CI/CD:</span> Agile, Git</p>
+      <p><span style="color: #be6147;">Database/ORM:</span> SQL Server, Relational Databases, Entity Framework</p>
+      </div>
+
+    </section>
+     <section id="sectionBreak">
      
     </section>
 
@@ -92,13 +114,12 @@
      
       <div class="row">
        <div class = "col-md-6 mb-3 p-3" >
-          <h4>The Walking Dawg Web Application</h4>
+          <h4>HomeLibrary Web Application</h4>
           <p>
-            This application was created as a group project for a Software Development course with the Eleven Fifty Academy. 
-            It is a .Net Framework API web application using n-tier architecture.  
+            This is a .NET Web Application that I built using n-tier architecture.  
           </p>
           <p>
-            View the repository for The Walking Dawg <a href="https://github.com/jacksonlee1/TheWalkingDawg.git"><i class="fa-solid fa-arrow-right"></i>HERE</a>
+            View the repository for the HomeLibrary <a href="https://github.com/mlaystrom/HomeLibraryApp"  target="_blank"><i class="fa-solid fa-arrow-right"></i>HERE</a>
           </p>
 
         </div><!--end of first column-->
@@ -109,7 +130,7 @@
             It is a .Net Framework API web application using n-tier architecture.  
           </p>
           <p>
-            View the repository for The Walking Dawg <a href="https://github.com/jacksonlee1/TheWalkingDawg.git"><i class="fa-solid fa-arrow-right"></i>HERE</a>
+            View the repository for The Walking Dawg (select "marla" branch to view all of my commits) <a href="https://github.com/jacksonlee1/TheWalkingDawg.git"  target="_blank"><i class="fa-solid fa-arrow-right"></i>HERE</a>
           </p>
 
         </div><!--end of Second column-->
@@ -117,24 +138,22 @@
         </div><!--end of first row>-->
         <div class="row">
        <div class = "col-md-6 mb-3 p-3" >
-          <h4>The Walking Dawg Web Application</h4>
+          <h4>Marla's Kites</h4>
           <p>
-            This application was created as a group project for a Software Development course with the Eleven Fifty Academy. 
-            It is a .Net Framework API web application using n-tier architecture.  
+            This is a mock store front website that was built using HTML, CSS, and some Bootstrap.  
           </p>
           <p>
-            View the repository for The Walking Dawg <a href="https://github.com/jacksonlee1/TheWalkingDawg.git"><i class="fa-solid fa-arrow-right"></i>HERE</a>
+            View the repository for Marla's Kite's <a href="https://github.com/mlaystrom/storeFrontAssignment"  target="_blank"><i class="fa-solid fa-arrow-right"></i>HERE</a>
           </p>
 
         </div><!--end of first column-->
-        <div class = "col-md-6 mb-3 p-3" >
-          <h4>The Walking Dawg Web Application</h4>
+        <div class = "col-md-6 mb-5 p-3" >
+          <h4>CodePen Creature</h4>
           <p>
-            This application was created as a group project for a Software Development course with the Eleven Fifty Academy. 
-            It is a .Net Framework API web application using n-tier architecture.  
+            This application was created using codepen where I made a seaturtle using only HTML and CSS. I accomplished this by using multiple shapes and colors.
           </p>
           <p>
-            View the repository for The Walking Dawg <a href="https://github.com/jacksonlee1/TheWalkingDawg.git"><i class="fa-solid fa-arrow-right"></i>HERE</a>
+            View the seaturtle I created <a href="https://codepen.io/mlaystrom/pen/KKGaQoP"  target="_blank"><i class="fa-solid fa-arrow-right"></i>HERE</a>
           </p>
 
         </div><!--end of Second column-->
@@ -149,10 +168,14 @@
      
     </section>
 
+
       <!--Footer-->
       <footer>
         <section id="contactMe">
-        <div class="social-links d-flex justify-content-center mt-5">
+<p class="footerText d-flex justify-content-center footerP"> Connect with Marla</i></p>
+<p class="downArrow d-flex justify-content-center mb-5"><i class="fa-solid fa-angles-down"></i></p>
+        <div class="social-links d-flex justify-content-center mt-1">
+          
             <a href="mailto:marlalaystrom@gmail.com" title="Email Marla">
             <i class="fa-solid fa-envelope"></i></a>
             <a href="https://github.com/mlaystrom" title="GitHub Profile" target="_blank">
@@ -163,7 +186,10 @@
             </a>
         
        </div> 
+   
        </section>
+
+ 
       </footer>
        
     <script

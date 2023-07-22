@@ -16,7 +16,23 @@ nav {
   
  
 }
+.navName{
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+   color:#f3f3f3; 
+  
+}
 
+.navLinks{
+  border-radius: 15px;
+  color: #3e4a61;
+  font-size: 1.12em;
+}
+.navLinks:hover{
+  background:#f3f3f3;
+  color: #be6147
+  
+}
 
 header p {
   font-size: 26px;
@@ -25,8 +41,8 @@ header p {
 
 img {
  
-  width:250px;
-  height:320px;
+  width:300px;
+  height:388px;
   border-radius:  25% 10%;
 }
 
@@ -83,7 +99,7 @@ footer  {
    
 }
 
-footer .social-links a {
+.social-links a {
     margin: 0 20px;
     padding: 10px 14px;
     font-size: 25px;
@@ -94,6 +110,35 @@ footer .social-links a {
 }
 footer .social-links a:hover{
     color: #c24d2c;
+}
+
+.about:hover {
+  color: #e8532a;
+}
+
+.headerName:hover{
+  color: #e8532a;
+}
+
+.headerTitle:hover{
+  color: #e8532a;
+  font-size: 2em;
+  transition: all 100ms ease-in-out;
+}
+
+.footerText{
+   color: #c24d2c;
+   font-size: 25px;
+}
+.footerP:hover{
+  color: #e8532a;
+  
+
+}
+
+.downArrow{
+   color: #c24d2c;
+   font-size: 25px;
 }
 
 
